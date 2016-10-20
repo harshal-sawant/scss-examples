@@ -1,0 +1,13 @@
+@import 'compass/css3'; 
+
+.example1 { 
+	@include box-shadow(#000 5px 5px 5px); 
+}
+
+.example2 {
+	@include single-text-shadow;
+}
+
+.example3 {
+  @include border-top-left-radius(25px);	
+}

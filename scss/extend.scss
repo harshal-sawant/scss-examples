@@ -1,0 +1,11 @@
+.myclass {
+  color: red;
+  font-size : 20px;
+}
+
+.newclass {
+  @extend .myclass;
+  
+  line-height: 30px;
+}
+  	

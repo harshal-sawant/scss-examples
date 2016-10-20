@@ -1,0 +1,7 @@
+$width: 10px; 
+$double_width: $width * 2;
+
+.box {
+	width: $width;
+	height: $double_width;
+}

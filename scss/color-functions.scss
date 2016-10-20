@@ -1,0 +1,28 @@
+$brand_color : #e57f73;
+.txt-light {
+    color: lighten($brand_color, 40%);
+}
+
+.txt-dark {
+    color: darken($brand_color, 10%);
+}
+
+.txt-sat {
+    color: saturate($brand_color, 100%);
+}
+
+.txt-desat {
+    color: desaturate($brand_color, 20%);
+}
+
+.txt-hue {
+    color: adjust-hue($brand_color, 180);
+}
+
+.txt-greyscale {
+    color: grayscale($brand_color);
+}
+
+.txt-mix {
+    color: mix($brand_color, #C00);
+}

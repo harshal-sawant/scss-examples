@@ -1,0 +1,18 @@
+@mixin boxStyles {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #999;
+}
+
+.box1 {
+  @include boxStyles;
+  font-size: 20px;
+}
+.box2 {
+   @include boxStyles;
+  font-size: 30px;
+}
+.box3 {
+  @include boxStyles;  
+  font-size: 40px;
+}
